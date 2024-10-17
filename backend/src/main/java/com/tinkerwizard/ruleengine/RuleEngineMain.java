@@ -1,13 +1,12 @@
-package com.tinkerwizard.demo;
+package com.tinkerwizard.ruleengine;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BackendApplication {
-
+public class RuleEngineMain {
 	public static void main(String[] args) {
-		SpringApplication.run(BackendApplication.class, args);
+		SpringApplication.run(RuleEngineMain.class, args);
 	}
 
 }
